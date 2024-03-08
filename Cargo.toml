@@ -14,14 +14,14 @@ exclude = [
 ]
 
 [dependencies]
-zip = "0.5.2"
-log = "0.4.6"
+zip = "^0.6"
+log = "^0.4"
 msoffice_shared = "0.1.1"
-strum = "0.15.0"
-strum_macros = "0.15.0"
+strum = "^0.26"
+strum_macros = "^0.26"
 
 [dev-dependencies]
-simple_logger = "1.2.0"
+simple_logger = "^4.3"
 
 [patch.crates-io]
-msoffice_shared = { git = "https://github.com/dam4rus/msoffice-shared-rs" }
+msoffice_shared = { git = "https://github.com/KaniyaSimeji/msoffice-shared-rs" }
